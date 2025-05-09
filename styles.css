@@ -111,17 +111,19 @@ ul {
 .btn {
   width: 169px;
   height: 56px;
-  margin: 88px auto 0;
+  margin-top: 88px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 24px;
-  vertical-align: middle;
 }
 .btn--primary {
   background-color: #4D5AE5;
@@ -219,8 +221,9 @@ ul {
 }
 .portfolio__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 360px);
   gap: 30px;
+  justify-content: center;
 }
 .portfolio__item {
   background-color: #FFFFFF;
@@ -258,4 +261,3 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-
