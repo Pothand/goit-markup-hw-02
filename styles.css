@@ -90,7 +90,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  padding: 0px 80px 0px px;
+  padding: 0px 80px 0px 0px;
 }
 .logo__highlight {
   color: #4D5AE5;
@@ -266,5 +266,5 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  
+  padding: 0px 80px 0px 0px;
 }
