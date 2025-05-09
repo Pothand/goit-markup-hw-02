@@ -258,13 +258,13 @@ ul {
 .site-footer {
   background-color: #2E2F42;
   color: #FFFFFF;
-  padding: 40px;
-  text-align: left;
-  Gap: 30px; 
+  padding: 60px;
+  text-align: left; 
 }
 .site-footer__text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  gap: 30px; 
+  padding: 60px;
+  
 }
