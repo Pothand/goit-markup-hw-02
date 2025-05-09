@@ -37,10 +37,20 @@ ul {
 .nav-link:focus {
   color: #404BBF;
 }
-.nav-link:active {
+.nav-link-studio {
+  text-decoration: none;
+  color: #434455;
+  padding-bottom: 4px;
+  position: relative;
+}
+.nav-link-studio:hover,
+.nav-link-studio:focus {
   color: #404BBF;
 }
-.nav-link:active::after {
+.nav-link-studio:active {
+  color: #404BBF;
+}
+.nav-link-studio:active::after {
   content: '';
   display: block;
   width: 48px;
