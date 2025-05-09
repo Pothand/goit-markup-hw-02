@@ -93,6 +93,10 @@ ul {
 
 /* Hero */
 .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #2E2F42;
   color: #FFFFFF;
   text-align: center;
@@ -107,7 +111,7 @@ ul {
 .btn {
   width: 169px;
   height: 56px;
-  margin: 88px 0 0 20px;
+  margin: 88px auto 0;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -215,7 +219,7 @@ ul {
 }
 .portfolio__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 .portfolio__item {
@@ -254,3 +258,4 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
